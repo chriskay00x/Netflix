@@ -1,0 +1,293 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(Helvetica.ttf);
+}
+@font-face {
+    font-family: Helvetica;
+    src: url(Helvetica-Bold.ttf);
+    font-weight: bold;
+}
+body{
+    background-color: black;
+    color: white;
+}
+body, html{
+    height: 100vh;
+    font-family: Helvetica;
+    max-width: 100%;
+}
+.bg-img{
+    background-image: url('netflix_login_background4.png');
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.sign-btn{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    float: right;
+}
+.top-head{
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: auto auto;
+    gap: 50%;
+    align-items: center;
+    height: 100px;
+}
+span.heading1{
+    font-weight: bold;
+    font-size: 4rem;
+}
+p.starts{
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+.head-details{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.inputs{
+    position: relative;
+    width: 25rem;
+    margin-top: 0.9rem;
+    text-align: center;
+}
+.inputs input{
+    padding: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(34, 34, 34, 0.5);
+    color: white;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+}
+a.starting-btn{
+    position: absolute;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 0.9rem;
+    font-size: 1.25rem;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 0.6rem;
+}
+a.starting-btn:hover{
+    background-color: #df0303;
+    color: white;
+}
+main .main-details{
+    background-color: black;
+    border-top: 2px solid red;
+}
+span.min-heading{
+    font-size: 25px;
+}
+span{
+    display: block;
+}
+div{
+    display: block;
+}
+.minny{
+    margin-top: 2.8rem;
+}
+.card-row{
+    width: 75%;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.card-row *{
+    box-sizing: border-box;
+}
+ul.card-min-row{
+    position: relative;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    overflow-y: visible;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-margin-inline-start: 40px;
+}
+ul{
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li.card{
+    padding: 4.8px 10px;
+    display: flex;
+}
+.insider{
+    position: relative;
+    border-radius: 8px;
+    background-color: rgb(27, 27, 27);
+    width: 112px;
+    height: 156px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.present-one{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 8px;
+    z-index: 1;
+    animation-direction: 0ms;
+    animation: 4000 infinite linear;
+}
+.netflix-image{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 8px;
+    z-index: 2;
+    background-size: cover;
+}
+.minny{
+    position: relative;
+    left: 12.5%;
+}
+.reason-container{
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.container-cards{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+}
+.card-row2{
+    position: relative;
+    display: flex;
+    gap: 7px;
+}
+.cards{
+    background-color: #160038;
+    background-image: linear-gradient(to bottom, #160038, #290031);
+    padding: 15px;
+    border-radius: 12px;
+    padding-bottom: 100px;
+    width: 25%;
+    padding-top: 20px;
+}
+span.min-heading{
+    margin-bottom: 20px;
+}
+.cards > p{
+    color: white;
+    opacity: 75%;
+}
+.section{
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.sect-line{
+    font-size: 23px;
+    padding: 25px;
+    background-color: #222;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+.sect-line:hover{
+    cursor: pointer;
+    background-color: #333;
+}
+.sect-line > span{
+    font-size: 25px;
+    float: right;
+}
+.membership{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 75px;
+}
+.inputer > input{
+    padding: 17px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(34, 34, 34, 0.5);
+    color: white;
+    outline: none;
+    font-size: 17px;
+    width: 60%;
+}
+a.starting-btn2{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+a.starting-btn2:hover{
+    background-color: #df0303;
+    color: white;
+}
+.links{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 75px;
+    opacity: 75%;
+}
+.linko{
+    color: white;
+}
+.link{
+    color: white;
+    width: 18.75%;
+    display: inline-block;
+}
+.personal{
+    margin-top: 45px;
+    line-height: 2;
+}
+.lastly{
+    width: 100%;
+    position: relative;
+    left: 12.5%;
+    padding: 50px 0;
+}
+
+/* Responsiveness of the Webpage */
+
+@media screen and (max-width: 600px) {
+    .card-row2{
+        flex-direction: column;
+    }
+    .cards{
+        width: 100%;
+    }
+}
